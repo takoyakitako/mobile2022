@@ -9,29 +9,52 @@ body {
 }
 
 section {
-    background-color: white;
-    border-radius: 10px;
-    padding: 40px;
-    margin-bottom: 10px;
+    width: 85%;
+    display: table;
+    margin: 60px auto;
+    padding-bottom: 60px;
+}
+
+#about, #skill {
+    border-bottom: 1px solid #ddd;
 }
 
 .wrapper {
-    width: 85%;
-    margin: 20px auto;
+    margin: 50px auto;
+    display: flex;
 }
-
-h1 {
-    display: none;
+.left-item {
+    width: 20%;
+}
+.right-item {
+    width: 70%;
+    border-radius: 5px;
+    background-color: #fff;
 }
 
 h2, h3 {
     font-family: sans-serif;
 }
+h3{
+    font-size: 24px;
+}
 
 h2 {
     margin: 0 0 20px 0;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 24px;
+    color: rgb(180, 139, 234);
+}
+
+h4 {
+    margin-top: 30px;
+}
+
+#my_info{
+    display: table;
+    width: auto;
+    margin: 0 auto;
+    padding-top: 50px;
 }
 
 #my_info h2 {
@@ -41,15 +64,16 @@ h2 {
 #my_info img {
     width: 100px;
     height: auto;
-    border-radius: 50px;
-    margin-right: 40px;
+    border-radius: 100px;
+    background-color: #fff;
+    padding: 10px;
 } 
 
 table {
-    display: inline-block;
     border-collapse: collapse;
     border-spacing: 0;
     vertical-align: top;
+    margin: 0 auto;
 }
 
 th {
@@ -61,15 +85,8 @@ th, td {
     font-size: 12px;
 }
 
-#myname th {
-    display: none;
-}
-
-#myname td {
-    display: block;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
+.name {
+    text-align: center;
 }
 
 a {
@@ -87,6 +104,12 @@ ul {
     padding: 0;
 }
 
+#contact {
+    display: table;
+    width: auto;
+    margin: 10px auto;
+}
+
 ul li {
     margin-bottom: 4px;
 }
@@ -96,20 +119,26 @@ ul li::before {
     width: 20px;
     height: 20px;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 5px;
+    text-align: center;
+    color: #fff;
 }
 
 ul li:nth-child(1)::before {
-    content: url('../images/ico_mobile.png');
+    content: '\f095';
+	font-family: 'ForkAwesome';
 }
 ul li:nth-child(2)::before {
-    content: url('../images/ico_email.png');
+    content: '\f0e0';
+	font-family: 'ForkAwesome';
 }
 ul li:nth-child(3)::before {
-    content: url('../images/ico_facebook.png');
+    content: '\f16d';
+	font-family: 'ForkAwesome';
 }
 ul li:nth-child(4)::before {
-    content: url('../images/ico_blog.png');
+    content: '\f09e';
+	font-family: 'ForkAwesome';
 }
 
 #skill ol {
@@ -164,3 +193,7 @@ ul li:nth-child(4)::before {
     padding: 2px 8px;
     transition: padding 0.2s;
 }
+
+
+
+
