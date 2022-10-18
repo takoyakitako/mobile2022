@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>HTML5 개인 포트폴리오 홈페이지</title>
+	<link rel="stylesheet" type="text/css" href="mportpolio.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+	<header>
+		<h1>아이나 홈페이지</h1>
+	</header>
+	<nav>
+		<div style="display: flex;">
+		<button type="button" class="btn btn-outline-primary" onclick="location.href='mcareer.html'" >경력</button>
+		<button type="button" class="btn btn-outline-primary" onclick="location.href='mstudy.html'" >학술</button>
+		<button type="button" class="btn btn-outline-primary" onclick="location.href='minfo.html'" >인적</button>
+		<button type="button" class="btn btn-outline-primary" onclick="location.href='mintro.html'" >소개</button>
+	</div>
+	</nav>
+	<div class="content">
+
+		<section class="section1">
+			<h3>자기소개</h3>
+			<!-- <p>Image at the top (card-img-top):</p> -->
+			<div class="card">
+				<img class="card-img-top" src="./dog.png" alt="Card image" style="width:80%">
+				<div class="card-body">
+					<h4 class="card-title">Sugiura Aina</h4>
+					<p class="card-text">일본에서 온 아이나입니다 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat placerat
+						tellus ut euismod. Integer dignissim molestie sem ut congue. Vestibulum aliquet nibh eget augue dapibus,
+						molestie commodo eros sagittis. Donec interdum pretium rhoncus.</p>
+				</div>
+			</div>
+			<aside>
+				<h3>참조링크</h3>
+				<a href="http://www.naver.com">
+					<img class="portal" src="naver.jpg" alt="네이버이동" />
+				</a>
+				<a href="http://www.google.com">
+					<img class="portal" src="google.jpg" alt="구글이동" />
+				</a>
+				<a href="http://www.daum.net">
+					<img class="portal" src="daum.jpg" alt="다음이동" />
+				</a>
+			</aside>
+		</section>
+		<!-- <aside>
+			<h3>참조링크</h3>
+			<a href="http://www.naver.com">
+				<img class="portal" src="naver.jpg" alt="네이버이동" />
+			</a>
+			<a href="http://www.google.com">
+				<img class="portal" src="google.jpg" alt="구글이동" />
+			</a>
+			<a href="http://www.daum.net">
+				<img class="portal" src="daum.jpg" alt="다음이동" />
+			</a>
+		</aside> -->
+	</div>
+	<footer>
+		<h2>Copyright &copy; 2014 Hong, GilDong </h2>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>HTML5 개인 포트폴리오 홈페이지</title>
+	<link rel="stylesheet" href="mportpolio.css"/>
+	<link rel="stylesheet" href="/css/foundation.min.css" />
+	<!-- Foundation CSS -->
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css"
+      crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    <!-- Foundation JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js"
+      crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- faundation -->
+	<!-- content -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+
+	<header>
+		<h1>아이나 홈페이지</h1>
+	</header>
+	<nav>
+		<button class="large button" type="button" onclick="location.href='mcareer.html'">경력</button>
+		<button class="large button" type="button" onclick="location.href='mstudy.html'">학술</button>
+		<button class="large button" type="button" onclick="location.href='minfo.html'">인적</button>
+		<button class="large button" type="button" onclick="location.href='mintro.html'">소개</button>
+		<!-- <span><a href="mcareer.html"> 경력 </a></span>
+		<span><a href="mstudy.html"> 학술 </a></span>
+		<span><a href="minfo.html"> 인적 </a></span>
+		<span><a href="mintro.html"> 소개 </a></span> -->
+	</nav>
+  <div class="content">
+	<section class="section1">  
+		<h3>인적사항</h3>
+		<ul>
+			<li>성    명 : 스기우라 아이나</li>
+			<li>생년월일 : 1995. 7. 15</li>
+			<li>주    소 : 부산관역시 부산진구</li>
+			<li>연 락 처 : 010-123-4567</li>
+			<li>학    력
+
+			<table id="year-table" border="1" class="hover">
+				<thead>
+					<tr>	<th>졸업년도</th> <th>출신학교</th></tr>
+				</thead>
+				<tbody>
+					<tr>	<td>2009. 2</td><td> 초등학교 졸업</td>	</tr>
+					<tr>	<td>2011. 2.</td><td> 중학교 졸업</td>	</tr>
+					<tr>	<td>2014. 2.</td><td> 고등학교 졸업</td></tr>
+					<tr>	<td>2023. 2.</td><td> 동의과학대학교 컴퓨터정보과 졸업</td></tr>
+				</tbody>
+			</table>
+			</li>
+		</ul>
+	</section>
+	<img id="logo" src="logo.jpg"/>	
+	<aside>
+		<h3>참조링크</h3>
+		<a href="http://www.naver.com">
+			<img class="portal" src="naver.jpg" alt="네이버이동"/>
+		</a>
+		<a href="http://www.google.com">
+			<img class="portal" src="google.jpg" alt="구글이동"/>
+		</a>
+		<a href="http://www.daum.net">
+			<img class="portal" src="daum.jpg" alt="다음이동"/>
+		</a>
+	</aside>
+  </div>
+	<footer>
+		<h2>Copyright &copy; 2014 Hong, GilDong </h2>
+	</footer>
+</body>
+</html>
